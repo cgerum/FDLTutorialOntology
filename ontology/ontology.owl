@@ -7,7 +7,7 @@
 @base <https://w3id.org/def/university> .
 
 <https://w3id.org/def/university> rdf:type owl:Ontology ;
-                                   <http://purl.org/dc/elements/1.1/title> "Ontology for Universities" ;
+                                   <http://purl.org/dc/terms/title> "Ontology for Universities" ;
                                    rdfs:comment "This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)" ;
                                    owl:versionInfo "0.0.1" .
 
@@ -15,21 +15,21 @@
 #    Annotation properties
 #################################################################
 
-###  http://purl.org/dc/elements/1.1/title
-<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
 #    Object Properties
 #################################################################
 
+###  https://w3id.org/def/university#teachesIn
 :teachesIn rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
-
 
 ###  https://w3id.org/def/university#AcademicStaff
 :AcademicStaff rdf:type owl:Class ;
