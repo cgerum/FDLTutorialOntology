@@ -1,12 +1,12 @@
-@prefix : <http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#> .
+@prefix : <https://w3id.org/def/university#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51> .
+@base <https://w3id.org/def/university> .
 
-<http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51> rdf:type owl:Ontology ;
+<https://w3id.org/def/university> rdf:type owl:Ontology ;
                                                                               rdfs:label "University ontology" ;
                                                                               owl:versionInfo "0.0.1" .
 
@@ -14,7 +14,7 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#teachesIn
+###  https://w3id.org/def/university#teachesIn
 :teachesIn rdf:type owl:ObjectProperty .
 
 
@@ -22,7 +22,7 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#AcademicStaff
+###  https://w3id.org/def/university#AcademicStaff
 :AcademicStaff rdf:type owl:Class ;
                rdfs:subClassOf :Staff ,
                                [ rdf:type owl:Restriction ;
@@ -32,12 +32,12 @@
                rdfs:label "Academic staff" .
 
 
-###  http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Course
+###  https://w3id.org/def/university#Course
 :Course rdf:type owl:Class ;
         rdfs:label "Course" .
 
 
-###  http://www.semanticweb.org/ux360cak/ontologies/2019/7/untitled-ontology-51#Staff
+###  https://w3id.org/def/university#Staff
 :Staff rdf:type owl:Class ;
        rdfs:label "Staff" .
 
