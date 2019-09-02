@@ -10,7 +10,7 @@
     <owl:Ontology rdf:about="https://w3id.org/def/university">
         <terms:title>Ontology for Universities</terms:title>
         <rdfs:comment>This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)</rdfs:comment>
-        <owl:versionInfo>0.0.1</owl:versionInfo>
+        <owl:versionInfo>0.0.2</owl:versionInfo>
     </owl:Ontology>
     
 
