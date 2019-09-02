@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Course" ; /*classes style*/
+	"NULL" -> "base:Course" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "base:teachesIn" [ label = "owl:onProperty" ];
+
+}
