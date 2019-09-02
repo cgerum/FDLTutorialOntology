@@ -20,7 +20,7 @@
     "@value" : "This ontology aims to model the staff and courses related to a University (built for the FDL tutorial)"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.0.1"
+    "@value" : "0.0.2"
   } ]
 }, {
   "@id" : "https://w3id.org/def/university#AcademicStaff",
